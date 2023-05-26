@@ -1,0 +1,701 @@
+.pot {
+  width: 65px;
+  height: 60px;
+  margin-top: -5px;
+  margin-left: 20px;
+}
+.companylogo {
+  width: 126px;
+  height: 27px;
+  margin-top: -30px;
+  margin-left: 95px;
+}
+.heroimage {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+.fooddiscount {
+  width: 210px;
+  height: 17px;
+  margin-top: -370px;
+  margin-left: 620px;
+  background-color: green;
+  color: #ffffff;
+}
+h5 {
+  margin-left: 20px;
+}
+.menubar {
+  width: 24px;
+  height: 20px;
+  margin-top: -140px;
+  margin-left: 1260px;
+}
+.deliciousfood {
+  width: 480px;
+  height: 205px;
+  margin-top: 100px;
+  margin-left: 620px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: xx-large;
+}
+.deliciousfood {
+  position: relative;
+  display: grid;
+}
+.deliciousfood::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.deliciousfood:hover::after {
+  width: 92%;
+}
+
+.aboutfood {
+  width: 440px;
+  height: 55px;
+  margin-top: 20px;
+  margin-left: 620px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: small;
+}
+.aboutfood {
+  position: relative;
+  display: inline-block;
+}
+.aboutfood::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.aboutfood:hover::before {
+  width: 100%;
+}
+.explorenow {
+  color: white;
+  background-color: #ffc066;
+  width: 174px;
+  height: 57px;
+  margin-left: 620px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.explorenow {
+  position: relative;
+  display: inline-block;
+}
+.explorenow::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+h3 {
+  text-align: center;
+}
+.explorenow:hover::after {
+  width: 100%;
+}
+.summersales {
+  width: 80px;
+  height: 83px;
+  margin-top: 13px;
+  margin-left: 250px;
+}
+.div2 {
+  height: 2px;
+  width: 1330px;
+  margin-top: 150px;
+}
+.discountvoucher {
+  margin-left: 340px;
+  margin-top: -75px;
+  font-size: large;
+}
+.discountvoucher {
+  position: relative;
+  width: 140px;
+}
+.discountvoucher::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.discountvoucher:hover::after {
+  width: 100%;
+}
+.discountabout {
+  width: 180px;
+  height: 35px;
+  margin-left: 340px;
+  font-size: small;
+}
+.freshfood {
+  margin-left: 550px;
+  margin-top: -60px;
+}
+.healthyfood {
+  margin-left: 630px;
+  margin-top: -60px;
+  font-size: large;
+}
+.healthyfood {
+  position: relative;
+  width: 180px;
+}
+.healthyfood::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.healthyfood:hover::after {
+  width: 100%;
+}
+.healthyabout {
+  width: 180px;
+  height: 35px;
+  margin-top: 1px;
+  margin-left: 630px;
+  font-size: small;
+}
+.delivery {
+  margin-left: 870px;
+  margin-top: -65px;
+}
+.homedelivery {
+  margin-left: 950px;
+  margin-top: -65px;
+  font-size: large;
+}
+.homedelivery {
+  position: relative;
+  width: 160px;
+}
+.homedelivery::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0); /* Change the color as needed */
+  transition: height 0.3s ease;
+}
+.homedelivery:hover::after {
+  width: 100%;
+}
+.fastdeliveryabout {
+  width: 180px;
+  margin-top: 1px;
+  margin-left: 950px;
+  font-size: small;
+}
+.div3 {
+  background-color: black;
+  width: 1350px;
+  height: 2px;
+  margin-top: 140px;
+  margin-left: -10px;
+}
+.ourmenu {
+  margin-top: 30px;
+  display: inline-block;
+  margin-left: 630px;
+  font-size: x-large;
+  background-color: #149f39;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 150px;
+  height: 50px;
+}
+p {
+  margin-left: 20px;
+  margin-top: -0.05px;
+}
+p {
+  position: relative;
+  width: 110px;
+}
+p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0); /* Change the color as needed */
+  transition: height 0.3s ease;
+}
+p:hover::after {
+  width: 100%;
+}
+.exploreourmenu {
+  margin-left: 580px;
+  font-size: xx-large;
+  margin-top: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.exploreourmenu {
+  position: relative;
+  width: 260px;
+}
+.exploreourmenu::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.exploreourmenu:hover::after {
+  width: 100%;
+}
+.explorebar {
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.explorebar2 {
+  margin-left: 690px;
+  margin-top: -590px;
+}
+.explorebar3 {
+  margin-left: 990px;
+  margin-top: -590px;
+}
+.explorebar4 {
+  margin-left: 990px;
+  margin-top: 30px;
+}
+.explorebar5 {
+  margin-left: 80px;
+  margin-top: -280px;
+}
+.explorebar6 {
+  margin-left: 390px;
+  margin-top: -280px;
+}
+.explorebar7 {
+  margin-left: 690px;
+  margin-top: -280px;
+}
+.buttom {
+  background-color: #fff0db;
+  height: 350px;
+  width: 1350px;
+  margin-top: 1120px;
+  margin-left: -10px;
+}
+.bottompot {
+  width: 65px;
+  height: 60px;
+  margin-top: 40px;
+  display: inline-block;
+  margin-left: 200px;
+}
+.bottomcompanylogo {
+  margin-left: 280px;
+  margin-top: -50px;
+  width: 146px;
+  height: 27px;
+}
+.bottomcompanylogo {
+  position: relative;
+  width: 140px;
+}
+.bottomcompanylogo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 40px;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0); /* Change the color as needed */
+  transition: height 0.3s ease;
+}
+.bottomcompanylogo:hover::after {
+  width: 100px;
+}
+.bottomdiv {
+  height: 300px;
+  width: 200px;
+  margin-left: 480px;
+  margin-top: -50px;
+}
+.bottomlink {
+  width: 80px;
+}
+
+.bottomlink2 {
+  margin-top: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.bottomlink3 {
+  margin-top: 2px;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.bottomlink4 {
+  margin-top: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.bottomlink5 {
+  margin-top: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.bottomlink {
+  position: relative;
+  width: 75px;
+}
+.bottomlink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.bottomlink:hover::after {
+  width: 100%;
+}
+.bottomlink2 {
+  position: relative;
+  width: 100px;
+}
+.bottomlink2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.bottomlink2:hover::after {
+  width: 100%;
+}
+.bottomlink3 {
+  position: relative;
+  width: 80px;
+}
+.bottomlink3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.bottomlink3:hover::after {
+  width: 100%;
+}
+.bottomlink4 {
+  position: relative;
+  width: 85px;
+}
+.bottomlink4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.bottomlink4:hover::after {
+  width: 100%;
+}
+.bottomlink5 {
+  position: relative;
+  width: 105px;
+}
+.bottomlink5::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.bottomlink5:hover::after {
+  width: 100%;
+}
+.bottomdiv2 {
+  height: 200px;
+  width: 200px;
+  margin-top: -300px;
+  margin-left: 700px;
+}
+
+.support2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 15px;
+}
+.support3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 2px;
+}
+.support4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 2px;
+}
+.support {
+  position: relative;
+  width: 60px;
+}
+.support::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.support:hover::after {
+  width: 100%;
+}
+.support2 {
+  position: relative;
+  width: 70px;
+}
+.support2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.support2:hover::after {
+  width: 100%;
+}
+.support3 {
+  position: relative;
+  width: 100px;
+}
+.support3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.support3:hover::after {
+  width: 100%;
+}
+.support4 {
+  width: 145px;
+  position: relative;
+}
+.support4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.support4:hover::after {
+  width: 100%;
+}
+.bottomdiv3 {
+  height: 80px;
+  width: 300px;
+  margin-left: 900px;
+  margin-top: -200px;
+}
+.newsletters {
+  position: relative;
+  width: 150px;
+}
+.newsletters::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0); /* Change the color as needed */
+  transition: height 0.3s ease;
+}
+.newsletters:hover::after {
+  width: 100%;
+}
+.newsletters2 {
+  margin-top: 10px;
+}
+.newsletters3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 8px;
+  font-size: large;
+}
+.followus {
+  height: 50px;
+  width: 250px;
+  margin-left: 900px;
+  margin-top: 15px;
+}
+.followus2 {
+  margin-top: 10px;
+  display: inline-block;
+  width: 30px;
+}
+.followus3 {
+  margin-left: 35px;
+  margin-top: -22px;
+  width: 30px;
+}
+.followus4 {
+  margin-top: -25px;
+  margin-left: 80px;
+  width: 30px;
+}
+.followus5 {
+  margin-left: 130px;
+  margin-top: -23px;
+  width: 30px;
+}
+.newsletters3 {
+  position: relative;
+  width: 80px;
+}
+.newsletters3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.newsletters3:hover::after {
+  width: 100%;
+}
+.followus2 {
+  position: relative;
+  width: 10px;
+}
+.followus2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.followus2:hover::after {
+  width: 100%;
+}
+.followus3 {
+  position: relative;
+  width: 20px;
+}
+.followus3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.followus3:hover::after {
+  width: 100%;
+}
+.followus4 {
+  position: relative;
+  width: 25px;
+}
+.followus4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.followus4:hover::after {
+  width: 100%;
+}
+.followus5 {
+  position: relative;
+  width: 25px;
+}
+.followus5::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: height 0.3s ease;
+}
+.followus5:hover::after {
+  width: 100%;
+}
